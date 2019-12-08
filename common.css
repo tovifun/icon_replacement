@@ -32,13 +32,13 @@ body{
 }
 
 svg.logo{
-    fill: white;
+    fill: rgb(255, 255, 255, 0.3);
     /* background:#0e1a25; */
     transition: background 0.2s, transform 0.2s ease-out, fill 0.2s;
 }
 
 svg.logo:hover{
-    fill: white;
+    fill: #00D1FF;
     /* background:black; */
     transform: rotate(10deg) scale(1.2); 
     transition: background 0.2s, transform 0.2s ease-out, fill 0.2s;
@@ -99,7 +99,7 @@ footer nav a{
 svg.tv_icon{
     width:24px;
     height:auto;
-    fill: white;
+    fill: rgb(255, 255, 255, 0.3);
     /* background:#0e1a25; */
     transition: background 0.2s, transform 0.2s ease-out, fill 0.2s;
 }

@@ -1,0 +1,173 @@
+/*
+Template Name:Mediumish
+Copyright:WowThemes.net,https://www.wowthemes.net
+Version:1.0.1
+License: https://www.wowthemes.net/freebies-license/
+*/
+body{
+	background: url(./images/project-bg-3.png) no-repeat  ;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: top;
+	background-color: #000000;
+  }
+
+.data{
+	color: rgb(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-weight: 400;
+	font-family: var(--sys-sans),var(--cjk-sans),sans-serif;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+.data a{
+	color: #00D1FF;
+	font-weight: 600;
+	text-decoration: underline;
+	transition: color 0.3s ease-in-out;
+	transition: font-size 0.3s ease-in-out;
+}
+
+.data a:hover{
+	color:rgb(255, 0, 200);
+	font-size: 17px;
+	transition: color 0.3s ease-in-out;
+	transition: font-size 0.3s ease-in-out;
+}
+
+.header nav .current{
+color: white;
+border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+}
+
+.header nav a{
+	color: white;
+
+}
+
+.header nav a:hover{
+color:#00D1FF;
+}
+
+.mainheading {
+	text-align: center;
+	color: rgb(255, 255, 255, 0.90);
+}
+
+.mainheading , .data{
+	width: 100%;
+    max-width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.data{
+	line-height: 1.8em;
+}
+
+.bgimage {
+  width:100%;
+  height:200px;
+  background: url('./images/preview.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* background-size:cover;
+  background-attachment: fixed; */
+  background-position: top 200px;
+}
+/* .bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+} */
+
+
+em {
+	font-weight: 700;
+}
+
+/* 响应标题 */
+@media(max-width:768px){
+	.mainheading {
+		font-size: 40px;
+		font-weight: 600;
+		margin-bottom: 8px;
+		letter-spacing: .01em;
+		line-height: 1.2;
+		margin-top: 0px;
+	}
+}
+
+@media(min-width:768px){
+	.mainheading {
+		font-size: 48px;
+		font-weight: 600;
+		margin-bottom: 12px;
+		letter-spacing: .02em;
+		line-height: 1.2;
+		margin-top: 20px;
+	}
+}
+
+@media(min-width:992px){
+	.mainheading {
+		font-size: 52px;
+		font-weight: 600;
+		margin-bottom: 12px;
+		letter-spacing: .03em;
+		line-height: 1.1;
+		margin-top: 28px;
+	}
+}
+
+@media(min-width:1200px){
+	.mainheading {
+		font-size: 64px;
+		font-weight: 600;
+		margin-bottom: 12px;
+		letter-spacing: .03em;
+		line-height: 1.1;
+		margin-top: 32px;
+	}
+}
+
+
+
+.workGrid img{
+	width:100%;
+	border-radius: 5%;
+	-moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+	transition: box-shadow 0.2s ease-in-out; 
+	transition: transform 0.2s ease-out;
+}
+
+.workGrid img:hover{
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+	transition: box-shadow 0.2s ease-in-out; 
+	transform: rotate(1deg) scale(1.05);     
+	transition: transform 0.2s ease-out;
+}
+
+.workGrid li{
+padding: 16px;
+}
+
+.workGrid p{
+text-align: center;
+font-size: 14px;
+margin:12px auto 8px auto;
+font-weight: 600;
+}
+
+.workGrid .data{
+	display:block;
+	text-align: center;
+	font-size:14px;
+	color:rgba(255, 255, 255, 0.5);
+}
+
+.workGrid li a{
+	color: rgba(255, 255, 255, 0.5);
+  }
